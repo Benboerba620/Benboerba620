@@ -16,9 +16,13 @@ I'm an investment researcher at a hedge fund, working on what looks like two pro
 
 灵感来自 [Karpathy 那条推](https://x.com/karpathy/status/2039805659525644595) —— 让 LLM 维护个人 wiki。零代码、纯 markdown、刻意不用向量库。门槛降到"会双击 PowerShell"。
 
-This is the first one I've open-sourced — more coming.
+**[daily-watchlist](https://github.com/Benboerba620/daily-watchlist)** — An AI-powered daily stock monitoring system for Claude Code. Maintain a watchlist, say `/dw-today`, and Claude fetches prices, detects movers, searches news, and writes a structured report.
 
-这是开源出来的第一个，后面还有。
+你维护股票池和关注方向，Claude 负责拉数据、搜新闻、写日报。对我来说，这是把 AI 辅助投研从"知识库底座"往前推进到"日常执行层"。
+
+Two open-source projects now: one for knowledge infrastructure, one for the daily research loop.
+
+现在已经有两个开源项目：一个做知识库底座，一个做日常研究工作流。
 
 ---
 
