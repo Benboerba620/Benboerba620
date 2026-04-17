@@ -10,7 +10,10 @@ I'm an investment researcher at a hedge fund, working on what looks like two pro
 
 ---
 
-### 🛠️ Currently building
+### 🛠️ Currently building: 零代码 AI 投研三件套 / Zero-code AI investment research toolkit
+
+三个项目串成一条工作流：**底座 → 日常执行 → 决策闭环**。
+Three projects, one workflow: **substrate → daily loop → decision feedback cycle**.
 
 **[karpathy-claude-wiki](https://github.com/Benboerba620/karpathy-claude-wiki)** — A Karpathy-style personal wiki template for LLMs. Markdown + frontmatter, no vector DB, no RAG. Built for Claude Code, works with any file-editing AI agent.
 
@@ -18,11 +21,11 @@ I'm an investment researcher at a hedge fund, working on what looks like two pro
 
 **[daily-watchlist](https://github.com/Benboerba620/daily-watchlist)** — An AI-powered daily stock monitoring system for Claude Code. Maintain a watchlist, say `/dw-today`, and Claude fetches prices, detects movers, searches news, and writes a structured report.
 
-你维护股票池和关注方向，Claude 负责拉数据、搜新闻、写日报。对我来说，这是把 AI 辅助投研从"知识库底座"往前推进到"日常执行层"。
+你维护股票池和关注方向，Claude 负责拉数据、搜新闻、写日报。把 AI 辅助投研从"知识库底座"往前推进到"日常执行层"。
 
-Two open-source projects now: one for knowledge infrastructure, one for the daily research loop.
+**[hypothesis-tracker](https://github.com/Benboerba620/hypothesis-tracker)** — AI-powered investment hypothesis tracking for Claude Code. Turn "I feel this will go up" into trackable, falsifiable theses — every trade binds to a hypothesis, every piece of evidence updates the conviction.
 
-现在已经有两个开源项目：一个做知识库底座，一个做日常研究工作流。
+每笔交易绑定假设，每条证据更新确定性。亏了知道为什么亏，赚了知道赚的什么钱——三件套里的决策闭环。
 
 ---
 
@@ -40,6 +43,13 @@ Two open-source projects now: one for knowledge infrastructure, one for the dail
 - 让 0 代码基础的人也能搭建和维护自己的 AI 工作流（投研 / 知识库 / 写作）
 - AI 在投资研究里**真正能加速**的环节，vs 只是看起来能加速的环节
 - 个人知识库写给 LLM 看，和写给未来的自己看，哪些约定要重新定
+
+---
+
+### 💡 Stay in the loop
+
+新工具上线频率不低，想第一时间知道的话：⭐ star 上面任一仓库收 release 通知，或 **follow 这个 profile**。
+New tools drop regularly — ⭐ any repo for release notifications, or **follow this profile** to catch them first.
 
 ---
 
