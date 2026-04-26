@@ -9,14 +9,33 @@ Hedge fund researcher, zero-code. Every AI tool I ship, I use daily.
 
 ---
 
-## 🛠️ 零代码 AI 投研三件套 / Zero-code AI investment research toolkit
+## 🛠️ 零代码 AI 投研四件套 / Zero-code AI investment research toolkit
 
-**底座 → 日常 → 决策**，三个工具串成一条工作流。
-**Substrate → daily loop → decision feedback.** Three tools, one pipeline.
+**输入 → 底座 → 日常 → 决策**，四个工具串成一条闭环。
+**Input → substrate → daily loop → decision feedback.** Four tools, one closed loop.
+
+```mermaid
+flowchart LR
+    P[🎙️ pod2wiki] -->|sources| W[🧠 karpathy-claude-wiki]
+    W -.->|read| D[📊 daily-watchlist]
+    W -.->|read| H[🎯 hypothesis-tracker]
+    D --> H
+    H -.->|evidence| W
+```
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
+      <h3>🎙️ <a href="https://github.com/Benboerba620/pod2wiki">pod2wiki</a></h3>
+      <b>输入 / Input</b>
+      <br/><br/>
+      把高质量播客（YouTube/RSS）自动转成中文摘要 + 英文原文存档。Whisper + DeepSeek，一键 AI 安装。
+      <br/><br/>
+      Podcasts and long-form RSS into Chinese summaries plus archived English transcripts. Whisper + DeepSeek.
+      <br/><br/>
+      <a href="https://github.com/Benboerba620/pod2wiki"><img src="https://img.shields.io/github/stars/Benboerba620/pod2wiki?style=flat&color=yellow&label=%E2%AD%90" /></a>
+    </td>
+    <td width="25%" valign="top">
       <h3>🧠 <a href="https://github.com/Benboerba620/karpathy-claude-wiki">karpathy-claude-wiki</a></h3>
       <b>底座 / Substrate</b>
       <br/><br/>
@@ -26,7 +45,7 @@ Hedge fund researcher, zero-code. Every AI tool I ship, I use daily.
       <br/><br/>
       <a href="https://github.com/Benboerba620/karpathy-claude-wiki"><img src="https://img.shields.io/github/stars/Benboerba620/karpathy-claude-wiki?style=flat&color=yellow&label=%E2%AD%90" /></a>
     </td>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <h3>📊 <a href="https://github.com/Benboerba620/daily-watchlist">daily-watchlist</a></h3>
       <b>日常 / Daily loop</b>
       <br/><br/>
@@ -36,7 +55,7 @@ Hedge fund researcher, zero-code. Every AI tool I ship, I use daily.
       <br/><br/>
       <a href="https://github.com/Benboerba620/daily-watchlist"><img src="https://img.shields.io/github/stars/Benboerba620/daily-watchlist?style=flat&color=yellow&label=%E2%AD%90" /></a>
     </td>
-    <td width="33%" valign="top">
+    <td width="25%" valign="top">
       <h3>🎯 <a href="https://github.com/Benboerba620/hypothesis-tracker">hypothesis-tracker</a></h3>
       <b>决策 / Decision</b>
       <br/><br/>
