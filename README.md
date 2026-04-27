@@ -9,23 +9,22 @@ Hedge fund researcher, zero-code. Every AI tool I ship, I use daily.
 
 ---
 
-## 🛠️ 零代码 AI 投研四件套 / Zero-code AI investment research toolkit
+## 🛠️ 零代码 AI 投研三件套 / Zero-code AI investment research toolkit
 
-**输入 → 底座 → 日常 → 决策**，四个工具串成一条闭环。
-**Input → substrate → daily loop → decision feedback.** Four tools, one closed loop.
+**输入 → 底座 → 日常 + 决策**，三个工具串成一条闭环。
+**Input → substrate → daily loop + decision feedback.** Three tools, one closed loop.
 
 ```mermaid
 flowchart LR
     P[🎙️ pod2wiki] -->|sources| W[🧠 karpathy-claude-wiki]
     W -.->|read| D[📊 daily-watchlist]
-    W -.->|read| H[🎯 hypothesis-tracker]
-    D --> H
-    H -.->|evidence| W
+    D -->|hypotheses & trades| DHT[🎯 built-in HT]
+    DHT -.->|evidence| W
 ```
 
 <table>
   <tr>
-    <td width="25%" valign="top">
+    <td width="33%" valign="top">
       <h3>🎙️ <a href="https://github.com/Benboerba620/pod2wiki">pod2wiki</a></h3>
       <b>输入 / Input</b>
       <br/><br/>
@@ -35,7 +34,7 @@ flowchart LR
       <br/><br/>
       <a href="https://github.com/Benboerba620/pod2wiki"><img src="https://img.shields.io/github/stars/Benboerba620/pod2wiki?style=flat&color=yellow&label=%E2%AD%90" /></a>
     </td>
-    <td width="25%" valign="top">
+    <td width="33%" valign="top">
       <h3>🧠 <a href="https://github.com/Benboerba620/karpathy-claude-wiki">karpathy-claude-wiki</a></h3>
       <b>底座 / Substrate</b>
       <br/><br/>
@@ -45,25 +44,15 @@ flowchart LR
       <br/><br/>
       <a href="https://github.com/Benboerba620/karpathy-claude-wiki"><img src="https://img.shields.io/github/stars/Benboerba620/karpathy-claude-wiki?style=flat&color=yellow&label=%E2%AD%90" /></a>
     </td>
-    <td width="25%" valign="top">
+    <td width="33%" valign="top">
       <h3>📊 <a href="https://github.com/Benboerba620/daily-watchlist">daily-watchlist</a></h3>
-      <b>日常 / Daily loop</b>
+      <b>日常 + 决策 / Daily loop + decision</b>
       <br/><br/>
-      股票池每日 AI 监控。你维护关注列表，说一句 <code>/dw-today</code>，Claude 抓价、搜新闻、写日报。
+      股票池每日 AI 监控，内置假设追踪。<code>/dw-today</code> 写日报，<code>/ht-new</code>、<code>/ht-status</code>、<code>/ht-trade</code> 管理假设和交易证据。
       <br/><br/>
-      AI-powered daily stock monitoring for Claude Code. Maintain a watchlist, Claude writes the report.
+      AI-powered stock monitoring with built-in hypothesis tracking for Claude Code.
       <br/><br/>
       <a href="https://github.com/Benboerba620/daily-watchlist"><img src="https://img.shields.io/github/stars/Benboerba620/daily-watchlist?style=flat&color=yellow&label=%E2%AD%90" /></a>
-    </td>
-    <td width="25%" valign="top">
-      <h3>🎯 <a href="https://github.com/Benboerba620/hypothesis-tracker">hypothesis-tracker</a></h3>
-      <b>决策 / Decision</b>
-      <br/><br/>
-      每笔交易绑定假设，每条证据更新确定性。<b>亏了知道为什么亏，赚了知道赚的什么钱。</b>
-      <br/><br/>
-      Turn "I feel this will go up" into trackable, falsifiable theses. Every trade binds to a hypothesis.
-      <br/><br/>
-      <a href="https://github.com/Benboerba620/hypothesis-tracker"><img src="https://img.shields.io/github/stars/Benboerba620/hypothesis-tracker?style=flat&color=yellow&label=%E2%AD%90" /></a>
     </td>
   </tr>
 </table>
