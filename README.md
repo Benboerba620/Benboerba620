@@ -42,7 +42,7 @@ flowchart LR
       <br/><br/>
       A personal wiki template for LLMs. Markdown + frontmatter, no vector DB, no RAG.
       <br/><br/>
-      <a href="https://github.com/Benboerba620/karpathy-claude-wiki"><img src="https://img.shields.io/github/stars/Benboerba620/karpathy-claude-wiki?style=flat&color=yellow&label=%E2%AD%90" /></a>
+      <a href="https://github.com/Benboerba620/karpathy-claude-wiki"><img src="https://img.shields.io/github/stars/Benboerba620/karpathy-claude-wiki?style=flat&color=yellow&label=Stars&cacheSeconds=3600" /></a>
     </td>
     <td width="33%" valign="top">
       <h3>📊 <a href="https://github.com/Benboerba620/daily-watchlist">daily-watchlist</a></h3>
