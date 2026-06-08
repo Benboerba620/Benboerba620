@@ -9,17 +9,29 @@ Hedge fund researcher, zero-code. Every AI tool I ship, I use daily.
 
 ---
 
+## 🌱 主打 · AI 工作系统基座 / The substrate
+
+**[ai-workspace-hub](https://github.com/Benboerba620/ai-workspace-hub)** —— Codex-first、Claude-compatible 的最小 AI 工作系统**基座**。把任何 AI 工作（研究 / 写作 / 投研 / 知识库）拆成一条稳定链路：**输入 → 知识库 → 输出 → 反馈 + 记忆**，clone 即跑、零依赖，想要更多就插模块。内置 [karpathy-wiki](https://github.com/Benboerba620/karpathy-claude-wiki) 风格的个人知识库；下面的三件套，就是装在它上面的输入 / 输出模块。
+
+A minimal, zero-dependency AI workspace **substrate** — Codex-first, Claude-compatible. Clone and it runs. Ships with a built-in karpathy-style personal wiki; the toolkit below plugs in as input / output modules.
+
+[![ai-workspace-hub stars](https://img.shields.io/github/stars/Benboerba620/ai-workspace-hub?style=flat&color=yellow&label=%E2%AD%90%20ai-workspace-hub)](https://github.com/Benboerba620/ai-workspace-hub)
+
+---
+
 ## 🛠️ 零代码 AI 投研三件套 / Zero-code AI investment research toolkit
 
-**输入 → 底座 → 日常 + 决策**，三个工具串成一条闭环。
-**Input → substrate → daily loop + decision feedback.** Three tools, one closed loop.
+**输入 → 知识库 → 日常 + 决策**，三个工具装进基座，串成一条闭环。
+**Input → knowledge base → daily loop + decision feedback.** Three tools plugged into the hub, one closed loop.
 
 ```mermaid
 flowchart LR
-    P[🎙️ pod2wiki] -->|sources| W[🧠 karpathy-claude-wiki]
-    W -.->|read| D[📊 daily-watchlist]
-    D -->|hypotheses & trades| DHT[🎯 built-in HT]
-    DHT -.->|evidence| W
+    subgraph HUB[🌱 ai-workspace-hub · 基座]
+        P[🎙️ pod2wiki] -->|sources| W[🧠 karpathy-claude-wiki]
+        W -.->|read| D[📊 daily-watchlist]
+        D -->|hypotheses & trades| DHT[🎯 built-in HT]
+        DHT -.->|evidence| W
+    end
 ```
 
 <table>
@@ -36,7 +48,7 @@ flowchart LR
     </td>
     <td width="33%" valign="top">
       <h3>🧠 <a href="https://github.com/Benboerba620/karpathy-claude-wiki">karpathy-claude-wiki</a></h3>
-      <b>底座 / Substrate</b>
+      <b>知识库 / Knowledge base</b>
       <br/><br/>
       Karpathy 风格的个人 wiki 模板，给 LLM 读写。纯 markdown + frontmatter，<b>刻意不用向量库</b>。
       <br/><br/>
