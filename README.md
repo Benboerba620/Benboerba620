@@ -15,16 +15,16 @@
 
 ---
 
-我不是程序员。这些工具来自一个很具体的需求：我每天要做股票研究，要整理资料、追踪假设、记录交易和复盘——我想让 AI 真正参与这些事，而不是每次都从头聊。
+我是研究员，不是程序员。做股票研究的日常就是这几件事：找 idea、收集资料、深入研究、写报告、做决策、跟踪复盘。我把这条工作流拆开，看每个环节 AI 能接多少，然后给接不好的地方写了小工具。
 
-所以我把自己真的在用的工作流开源了。能 clone 下来跑的那种，不是看看就完了的 demo。
+这些工具我自己每天在用。开源出来，是因为我觉得研究员的工作流大同小异——你拿去改改，大概率也能跑。
 
 <details>
 <summary>English</summary>
 
-I'm not a programmer. These tools come from a concrete need: I do stock research every day — digesting sources, tracking hypotheses, logging trades, reviewing results — and I want AI to actually participate in that process, not start from scratch every conversation.
+I'm a researcher, not a programmer. My daily job is stock research: sourcing ideas, collecting information, deep dives, writing reports, making decisions, and tracking follow-ups. I broke this workflow apart, figured out where AI can plug in at each stage, and built small tools for the gaps.
 
-So I open-sourced the workflows I actually use. The kind you can clone and run, not just read about.
+I use these tools every day. I open-sourced them because most researchers follow a similar workflow — clone it, tweak it, and it'll probably work for you too.
 
 </details>
 
