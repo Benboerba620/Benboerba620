@@ -9,27 +9,22 @@
 [![即刻](https://img.shields.io/badge/即刻-@奔波儿r-FFE411?logoColor=black)](https://okjk.co/mTVFAE)
 [![GitHub followers](https://img.shields.io/github/followers/Benboerba620?style=social)](https://github.com/Benboerba620?tab=followers)
 
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Benboerba620&show_icons=true&theme=default&hide_title=true&hide_rank=true&include_all_commits=true" alt="GitHub Stats" />
+
 </div>
 
 ---
 
-我不是程序员，也不把这些项目当 demo。  
-这些工具来自一个很具体的问题：
+我不是程序员。这些工具来自一个很具体的需求：我每天要做股票研究，要整理资料、追踪假设、记录交易和复盘——我想让 AI 真正参与这些事，而不是每次都从头聊。
 
-> 如果一个股票研究员不会写代码，但想让 AI 真正参与日常研究、资料整理、假设追踪和复盘，他需要一套什么样的工作台？
-
-我的答案是：**少一点炫技，多一点可复制；少一点一次性 prompt，多一点长期运行的研究系统。**
+所以我把自己真的在用的工作流开源了。能 clone 下来跑的那种，不是看看就完了的 demo。
 
 <details>
 <summary>English</summary>
 
-I am not a programmer, and I do not treat these projects as demos.
+I'm not a programmer. These tools come from a concrete need: I do stock research every day — digesting sources, tracking hypotheses, logging trades, reviewing results — and I want AI to actually participate in that process, not start from scratch every conversation.
 
-They come from one practical question:
-
-> If an investment researcher cannot code, but wants AI to actually help with daily research, source digestion, hypothesis tracking, and review, what kind of workspace does that person need?
-
-My answer: **less prompt theater, more durable systems; less one-off magic, more repeatable workflows.**
+So I open-sourced the workflows I actually use. The kind you can clone and run, not just read about.
 
 </details>
 
@@ -37,52 +32,28 @@ My answer: **less prompt theater, more durable systems; less one-off magic, more
 
 ## Start here: my AI research stack
 
-如果你也想搭一个“能每天用”的 AI 投研工作台，建议从这里开始：
+如果你也想搭一个"能每天用"的 AI 投研工作台，建议按这个顺序来：
 
-1. **输入资料**：用 [pod2wiki](https://github.com/Benboerba620/pod2wiki) 把播客、YouTube、RSS 和长内容变成可读、可沉淀的研究材料。
+### 🌱 [ai-workspace-hub](https://github.com/Benboerba620/ai-workspace-hub) — 先从这个开始
 
-2. **搭工作区**：用 [ai-workspace-hub](https://github.com/Benboerba620/ai-workspace-hub) 把资料、知识库、输出、反馈和记忆放进同一套 AI 工作台。
+一个 AI 工作区模板：资料输入、知识库、输出、反馈和记忆放进同一套结构里。不需要会写代码，不需要 API key，clone 下来直接用。
 
-3. **跑日常研究**：用 [daily-watchlist](https://github.com/Benboerba620/daily-watchlist) 做股票池日报、假设追踪、交易证据和复盘。
+[![ai-workspace-hub stars](https://img.shields.io/github/stars/Benboerba620/ai-workspace-hub?style=social)](https://github.com/Benboerba620/ai-workspace-hub)
+[![Last commit](https://img.shields.io/github/last-commit/Benboerba620/ai-workspace-hub?label=updated)](https://github.com/Benboerba620/ai-workspace-hub)
 
-<table>
-  <tr>
-    <td width="34%" valign="top">
-      <h3>🌱 <a href="https://github.com/Benboerba620/ai-workspace-hub">ai-workspace-hub</a></h3>
-      <p><b>先从这个开始。</b></p>
-      <p>一个 Codex-first、Claude-compatible 的 AI 工作区模板：资料输入、知识库、输出、反馈和记忆都放进同一套结构里。</p>
-      <p>适合想搭个人 AI 工作台、但不想先学一堆工程概念的人。</p>
-      <p><a href="https://github.com/Benboerba620/ai-workspace-hub"><img src="https://img.shields.io/github/stars/Benboerba620/ai-workspace-hub?style=social" alt="ai-workspace-hub stars"></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>📊 <a href="https://github.com/Benboerba620/daily-watchlist">daily-watchlist</a></h3>
-      <p><b>让股票池每天自己跑起来。</b></p>
-      <p>面向 Claude Code 的股票池 AI 监控工具：日报、观察列表、假设追踪、交易证据和复盘记录。</p>
-      <p>核心不是“预测股价”，而是让研究过程更可追踪。</p>
-      <p><a href="https://github.com/Benboerba620/daily-watchlist"><img src="https://img.shields.io/github/stars/Benboerba620/daily-watchlist?style=social" alt="daily-watchlist stars"></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🎙️ <a href="https://github.com/Benboerba620/pod2wiki">pod2wiki</a></h3>
-      <p><b>把长内容变成研究材料。</b></p>
-      <p>把 YouTube / RSS / 播客自动转成中文摘要和英文原文存档，适合长期跟踪海外访谈、行业讨论和公司信息。</p>
-      <p>Whisper + DeepSeek，一键安装，尽量照顾零代码用户。</p>
-      <p><a href="https://github.com/Benboerba620/pod2wiki"><img src="https://img.shields.io/github/stars/Benboerba620/pod2wiki?style=social" alt="pod2wiki stars"></a></p>
-    </td>
-  </tr>
-</table>
+### 📊 [daily-watchlist](https://github.com/Benboerba620/daily-watchlist) — 让股票池每天自己跑起来
 
----
+面向 Claude Code 的股票池监控工具：日报、观察列表、假设追踪、交易证据和复盘。核心不是预测股价，而是让研究过程可追踪。
 
-## Standalone knowledge base
+[![daily-watchlist stars](https://img.shields.io/github/stars/Benboerba620/daily-watchlist?style=social)](https://github.com/Benboerba620/daily-watchlist)
+[![Last commit](https://img.shields.io/github/last-commit/Benboerba620/daily-watchlist?label=updated)](https://github.com/Benboerba620/daily-watchlist)
 
-### 🧠 [karpathy-claude-wiki](https://github.com/Benboerba620/karpathy-claude-wiki)
+### 🎙️ [pod2wiki](https://github.com/Benboerba620/pod2wiki) — 把长内容变成研究材料
 
-一个给 LLM 读写的个人 wiki 模板：纯 Markdown + frontmatter，**刻意不用向量库，也不做复杂 RAG**。
+把播客、YouTube、RSS 自动转成中文摘要 + 英文原文存档。适合长期跟踪海外访谈、行业讨论和公司信息。
 
-它解决的是另一个基础问题：  
-**AI 不只是回答问题，它也需要一个能长期读写、能沉淀上下文的地方。**
-
-[![karpathy-claude-wiki stars](https://img.shields.io/github/stars/Benboerba620/karpathy-claude-wiki?style=social)](https://github.com/Benboerba620/karpathy-claude-wiki)
+[![pod2wiki stars](https://img.shields.io/github/stars/Benboerba620/pod2wiki?style=social)](https://github.com/Benboerba620/pod2wiki)
+[![Last commit](https://img.shields.io/github/last-commit/Benboerba620/pod2wiki?label=updated)](https://github.com/Benboerba620/pod2wiki)
 
 ---
 
@@ -94,7 +65,7 @@ My answer: **less prompt theater, more durable systems; less one-off magic, more
 
 - **个人知识库给 AI 读**：未来的知识库不只写给自己看，也要写给 AI agent 看。
 
-- **公开可复制**：我更关心普通人能不能 clone 下来跑，而不是项目看起来有多“技术先进”。
+- **公开可复制**：我更关心普通人能不能 clone 下来跑，而不是项目看起来有多"技术先进"。
 
 ---
 
