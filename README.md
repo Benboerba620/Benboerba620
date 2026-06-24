@@ -32,28 +32,56 @@ I use these tools every day. I open-sourced them because most researchers follow
 
 ## Start here: my AI research stack
 
-如果你也想搭一个"能每天用"的 AI 投研工作台，建议按这个顺序来：
+如果你也想搭一个"能每天用"的 AI 投研工作台，建议从这里开始：
 
-### 🌱 [ai-workspace-hub](https://github.com/Benboerba620/ai-workspace-hub) — 先从这个开始
+<table>
+  <tr>
+    <td width="34%" valign="top">
+      <h3>🌱 <a href="https://github.com/Benboerba620/ai-workspace-hub">ai-workspace-hub</a></h3>
+      <p><b>先从这个开始。</b></p>
+      <p>一个 Codex-first、Claude-compatible 的 AI 工作区模板：资料输入、知识库、输出、反馈和记忆都放进同一套结构里。</p>
+      <p>适合想搭个人 AI 工作台、但不想先学一堆工程概念的人。</p>
+      <p>
+        <a href="https://github.com/Benboerba620/ai-workspace-hub"><img src="https://img.shields.io/github/stars/Benboerba620/ai-workspace-hub?style=social" alt="stars"></a>
+        <a href="https://github.com/Benboerba620/ai-workspace-hub"><img src="https://img.shields.io/github/last-commit/Benboerba620/ai-workspace-hub?label=updated" alt="last commit"></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>📊 <a href="https://github.com/Benboerba620/daily-watchlist">daily-watchlist</a></h3>
+      <p><b>让股票池每天自己跑起来。</b></p>
+      <p>面向 Claude Code 的股票池 AI 监控工具：日报、观察列表、假设追踪、交易证据和复盘记录。</p>
+      <p>核心不是"预测股价"，而是让研究过程更可追踪。</p>
+      <p>
+        <a href="https://github.com/Benboerba620/daily-watchlist"><img src="https://img.shields.io/github/stars/Benboerba620/daily-watchlist?style=social" alt="stars"></a>
+        <a href="https://github.com/Benboerba620/daily-watchlist"><img src="https://img.shields.io/github/last-commit/Benboerba620/daily-watchlist?label=updated" alt="last commit"></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🎙️ <a href="https://github.com/Benboerba620/pod2wiki">pod2wiki</a></h3>
+      <p><b>把长内容变成研究材料。</b></p>
+      <p>把 YouTube / RSS / 播客自动转成中文摘要和英文原文存档，适合长期跟踪海外访谈、行业讨论和公司信息。</p>
+      <p>Whisper + DeepSeek，一键安装，尽量照顾零代码用户。</p>
+      <p>
+        <a href="https://github.com/Benboerba620/pod2wiki"><img src="https://img.shields.io/github/stars/Benboerba620/pod2wiki?style=social" alt="stars"></a>
+        <a href="https://github.com/Benboerba620/pod2wiki"><img src="https://img.shields.io/github/last-commit/Benboerba620/pod2wiki?label=updated" alt="last commit"></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-一个 AI 工作区模板：资料输入、知识库、输出、反馈和记忆放进同一套结构里。不需要会写代码，不需要 API key，clone 下来直接用。
+---
 
-[![ai-workspace-hub stars](https://img.shields.io/github/stars/Benboerba620/ai-workspace-hub?style=social)](https://github.com/Benboerba620/ai-workspace-hub)
-[![Last commit](https://img.shields.io/github/last-commit/Benboerba620/ai-workspace-hub?label=updated)](https://github.com/Benboerba620/ai-workspace-hub)
+## Standalone knowledge base
 
-### 📊 [daily-watchlist](https://github.com/Benboerba620/daily-watchlist) — 让股票池每天自己跑起来
+### 🧠 [karpathy-claude-wiki](https://github.com/Benboerba620/karpathy-claude-wiki)
 
-面向 Claude Code 的股票池监控工具：日报、观察列表、假设追踪、交易证据和复盘。核心不是预测股价，而是让研究过程可追踪。
+一个给 LLM 读写的个人 wiki 模板：纯 Markdown + frontmatter，**刻意不用向量库，也不做复杂 RAG**。
 
-[![daily-watchlist stars](https://img.shields.io/github/stars/Benboerba620/daily-watchlist?style=social)](https://github.com/Benboerba620/daily-watchlist)
-[![Last commit](https://img.shields.io/github/last-commit/Benboerba620/daily-watchlist?label=updated)](https://github.com/Benboerba620/daily-watchlist)
+它解决的是另一个基础问题：  
+**AI 不只是回答问题，它也需要一个能长期读写、能沉淀上下文的地方。**
 
-### 🎙️ [pod2wiki](https://github.com/Benboerba620/pod2wiki) — 把长内容变成研究材料
-
-把播客、YouTube、RSS 自动转成中文摘要 + 英文原文存档。适合长期跟踪海外访谈、行业讨论和公司信息。
-
-[![pod2wiki stars](https://img.shields.io/github/stars/Benboerba620/pod2wiki?style=social)](https://github.com/Benboerba620/pod2wiki)
-[![Last commit](https://img.shields.io/github/last-commit/Benboerba620/pod2wiki?label=updated)](https://github.com/Benboerba620/pod2wiki)
+[![karpathy-claude-wiki stars](https://img.shields.io/github/stars/Benboerba620/karpathy-claude-wiki?style=social)](https://github.com/Benboerba620/karpathy-claude-wiki)
+[![Last commit](https://img.shields.io/github/last-commit/Benboerba620/karpathy-claude-wiki?label=updated)](https://github.com/Benboerba620/karpathy-claude-wiki)
 
 ---
 
